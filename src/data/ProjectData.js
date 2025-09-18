@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 import EventEase from "../Assets/Event-Ease.png";
 import OmniQuiz from "../Assets/OmniQuiz.png";
-import Portfolio from "../Assets/portfolio.png";
+import Portfolio from "../Assets/Portfolio.png";
 export const ProjectList = [
   {
     img: EventEase,
@@ -25,44 +25,65 @@ export const ProjectList = [
     title: "Portfolio",
     description: "Ofcourse i made my own personal portfolio website.",
     tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link/",
+    github_url: "https://github.com/Yadati-Viswas/My-Portfolio",
+    demo_url: "https://viswas-yadati-portfolio.vercel.app/",
   },
 ];
 
 // --------------------------------------- Skills
 
+// ...existing code...
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     name: "HTML",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
     name: "CSS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
-    name: "Bootstrap",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    name: "Java",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
-    name: "Scss",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+    name: "Spring Boot",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    name: "PostgreSQL",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+    name: "Linux",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+    name: "Shell Scripting",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg",
+    name: "Kubernetes",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg",
+    name: "Docker",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
-    name: "Responsive",
   },
 ];

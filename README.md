@@ -1,12 +1,6 @@
 **Portfolio**
-Live Preview - [Click Here](https://gurusheshp.vercel.app/)
+Live Preview - [Click Here](https://viswas-yadati-portfolio.vercel.app/)
 
-<br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
-<br/>
-<br/>
 
 # 🛠 Installation and Setup Instructions
 

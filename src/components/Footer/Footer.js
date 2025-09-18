@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import footerBg from "../../Assets/footer-bg.png"; 
 
 const FooterSection = styled.div`
-  background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg);
+  background-image: url(${footerBg});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -26,11 +27,11 @@ function Footer() {
         <span>
           Coded with 💙 by{" "}
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/Yadati-Viswas"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @gurupawar
+            @ydsv
           </a>{" "}
         </span>
       </div>

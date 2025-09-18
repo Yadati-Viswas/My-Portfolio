@@ -8,6 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
+import MyPic from "../../Assets/My_pic.jpeg";
 function About() {
   return (
     <ContactWrapper id="about">
@@ -15,17 +16,12 @@ function About() {
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
           <Image
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+            src={MyPic}
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            Hello! My name is <strong>Viswas Yadati</strong> Seeking a full-stack software developer position where I can leverage my expertise in ReactJS, Spring Boot, and cloud
+            technologies to build scalable, high-performance applications while contributing to innovative IT solutions.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
