@@ -1,8 +1,17 @@
 // --------------------------------------- Project List
 import EventEase from "../Assets/Event-Ease.png";
-import OmniQuiz from "../Assets/OmniQuiz.png";
+import OmniSkill from "../Assets/OmniSkill.png";
 import Portfolio from "../Assets/Portfolio.png";
 export const ProjectList = [
+  {
+    img: OmniSkill,
+    title: "OmniSkill",
+    description:
+      "Learn, practice, and master any skill — from art to finance, literature to engineering. Everything You Need in One Place: Quizzes, coding, interviews, courses — all built for real-world growth.",
+    tech_stack: "Html, Tailwind Css, ReactJs, Spring Boot, PostgreSQL",
+    github_url: "https://github.com/Yadati-Viswas/Quiz-App",
+    demo_url: "https://github.com/Yadati-Viswas/Quiz-App",
+  },
   {
     img: EventEase,
     title: "Event Ease",
@@ -10,16 +19,7 @@ export const ProjectList = [
     tech_stack: "Html, Tailwind Css, Reactjs, Nodejs, Expressjs, MongoDB",
     github_url: "https://github.com/Yadati-Viswas/EventEase",
     demo_url: "https://event-ease-frontend-v1.vercel.app",
-  },
-  {
-    img: OmniQuiz,
-    title: "OmniQuiz",
-    description:
-      "Teachers can craft engaging quizzes for their classes, while everyone else can jump in, test their knowledge, and climb the leaderboards!",
-    tech_stack: "Html, Tailwind Css, ReactJs, Spring Boot, PostgreSQL",
-    github_url: "https://github.com/Yadati-Viswas/Quiz-App",
-    demo_url: "https://github.com/Yadati-Viswas/Quiz-App",
-  },
+  }, 
   {
     img: Portfolio,
     title: "Portfolio",

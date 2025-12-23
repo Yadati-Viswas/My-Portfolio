@@ -58,12 +58,14 @@ export const CardRight = styled.div`
 export const Stack = styled.div`
   display: flex;
   align-items: center;
+  gap: 10px;
   margin-bottom: 5px;
 
   .stackTitle {
     font-weight: 500;
-    margin-right: 10px;
+    white-space: nowrap;
     font-size: 17px;
+    
   }
 
   .tags {
