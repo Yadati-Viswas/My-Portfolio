@@ -36,7 +36,7 @@ export default function SocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/viswas-yadati-598728201/"
+            href="https://www.linkedin.com/in/viswas-yadati/"
             target="_blank"
             rel="noopener noreferrer"
           >

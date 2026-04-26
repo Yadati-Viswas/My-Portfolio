@@ -6,16 +6,18 @@ const educationList = [
   {
     institution: "University of North Carolina at Charlotte",
     degree: "Master of Science in Information Technology",
-    date: "Jan 2025 - Present",
-    location: "Charlotte, USA",
-    extras: ["GPA: 4.00 / 4.00"],
+    location: "Charlotte, North Carolina",
+    extras: [
+      "Graduate program focused on software engineering, cloud-native architecture, and scalable systems.",
+    ],
   },
   {
-    institution: "MGIT",
+    institution: "MGIT (JNTU Affiliated)",
     degree: "Bachelor of Technology in Information Technology",
-    date: "June 2022",
     location: "Hyderabad, India",
-    extras: ["Grade: 7.0"],
+    extras: [
+      "Built strong foundations in software engineering, data structures, and database systems.",
+    ],
   },
 ];
 
@@ -31,7 +33,9 @@ export default function Education() {
         >
           <div className="content">
             <h3 className="item-title">{ed.institution}</h3>
-            <div className="item-meta">{ed.degree}</div>
+            <div className="item-meta">
+              {ed.degree} — {ed.location}
+            </div>
             {ed.extras && (
               <ul className="resume-list">
                 {ed.extras.map((x, idx) => (
@@ -39,11 +43,6 @@ export default function Education() {
                 ))}
               </ul>
             )}
-          </div>
-
-          <div className="item-date">
-            <div>{ed.date}</div>
-            <div style={{ marginTop: 6 }}>{ed.location}</div>
           </div>
         </div>
       ))}

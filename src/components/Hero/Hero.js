@@ -26,15 +26,15 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h1>Hi, I'm Dattasai Viswas</h1>
-            <h5>Full Stack Developer</h5>
+            <h5>Full Stack Software Engineer</h5>
             <p>
-              I design and code beautifully simple things, and I love what I do.
+              4+ years building enterprise and cloud-native applications with Java, Spring, React, and AWS.
             </p>
           </HeroLeft>
           <HeroRight>
             <Image
               src={MyPic}
-              alt="man-svgrepo"
+              alt="Viswas Yadati"
             />
           </HeroRight>
         </HeroWrapper>

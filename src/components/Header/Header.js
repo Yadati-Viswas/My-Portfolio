@@ -32,7 +32,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://drive.google.com/file/d/1TwXM8aZKfSJEYy48RnLmRS_DSGuI6P6k/view?usp=sharing"
+            href="/Yadati_Viswas_Resume_SE_JP.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

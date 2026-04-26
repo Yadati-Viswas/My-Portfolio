@@ -17,14 +17,16 @@ function About() {
         <div className="BigCard">
           <Image
             src={MyPic}
-            alt="man-svgrepo"
+            alt="Viswas Yadati"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Viswas Yadati</strong> Seeking a full-stack software developer position where I can leverage my expertise in ReactJS, Spring Boot, and cloud
-            technologies to build scalable, high-performance applications while contributing to innovative IT solutions.
+            Hello! My name is <strong>Viswas Yadati</strong>. I am a full stack software engineer with 4+ years of
+            experience designing and deploying scalable enterprise and cloud-native applications across Java, Spring,
+            React, TypeScript, and AWS ecosystems.
           </div>
           <div className="AboutBio tagline2">
-            I have become confident using the following technologies.
+            I focus on reliability, data-driven design, and performance optimization. These are the core technologies
+            and tools I actively use.
           </div>
           <Technologies>
             {stackList.map((stack, index) => (

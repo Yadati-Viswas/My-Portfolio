@@ -13,7 +13,7 @@ function ProjectCard() {
       {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <img src={list.img} alt={list.name} />
+            <img src={list.img} alt={list.title} />
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
@@ -23,22 +23,26 @@ function ProjectCard() {
               <span className="tags">{list.tech_stack}</span>
             </Stack>
             <BtnGroup>
-              <a
-                className="btn btn2 SecondarBtn"
-                href={list.github_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                className="btn PrimaryBtn"
-                href={list.demo_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo ➜
-              </a>
+              {list.github_url && (
+                <a
+                  className="btn btn2 SecondarBtn"
+                  href={list.github_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {list.github_label || "Github"}
+                </a>
+              )}
+              {list.demo_url && (
+                <a
+                  className="btn PrimaryBtn"
+                  href={list.demo_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {list.demo_label || "Demo ->"}
+                </a>
+              )}
             </BtnGroup>
           </CardRight>
         </Card>
